@@ -1,4 +1,4 @@
-@Library('MySharedLib') _
+@Library('SharedLib-Task-2') _
 
 pipeline {
     agent any
