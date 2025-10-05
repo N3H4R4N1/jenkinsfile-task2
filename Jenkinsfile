@@ -7,7 +7,7 @@ pipeline {
             steps {
                 mavenBuildNotify(
                     repoUrl: 'https://github.com/opstree/spring3hibernate.git',
-                    branch: 'main',
+                    branch: 'master',
                     mavenCmd: 'clean package'
                 )
             }
