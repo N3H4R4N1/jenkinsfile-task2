@@ -8,8 +8,8 @@ pipeline {
                 mavenBuildNotify(
                     repoUrl: 'https://github.com/opstree/spring3hibernate.git',
                     branch: 'master',
+                    emailId: 'neharani150901@gmail.com',     
                     mavenCmd: 'clean package'
-                    emailId: 'neharani150901@gmail.com'
                 )
             }
         }
