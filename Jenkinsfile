@@ -9,6 +9,7 @@ pipeline {
                     repoUrl: 'https://github.com/opstree/spring3hibernate.git',
                     branch: 'master',
                     mavenCmd: 'clean package'
+                    emailId: 'neharani150901@gmail.com'
                 )
             }
         }
